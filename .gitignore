@@ -1,0 +1,89 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+publish/
+out/
+
+# .NET user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+
+# JetBrains Rider user files
+*.sln.iml
+
+# Logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS Express
+iisexpress/
+*.dbmdl
+
+# Entity Framework / local database artifacts
+*.mdf
+*.ldf
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]enchmarkDotNet.Artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/packages/
+
+# Publish profiles
+*.publishsettings
+
+# Secrets / environment
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / reports
+coverage/
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Generated files
+Generated/
+wwwroot/lib/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
